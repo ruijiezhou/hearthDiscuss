@@ -17,6 +17,12 @@
 @import "bulma";
 @import "functions";
 
+body{
+  background: url('cardbackground.jpg')
+  center center;
+  background-repeat: repeat;
+}
+
 .image {
   border-radius: 50%;
   img {
@@ -37,4 +43,68 @@
 
 .discussion-title {
   margin-bottom: 0;
+}
+
+.edit_channel {
+  background: white; /* For browsers that do not support gradients */
+  background: radial-gradient(rgba(255,255,255,2), rgba(255,255,255,0.65)); /* Standard syntax (must be last) */
+}
+
+.show_channel {
+  background: white; /* For browsers that do not support gradients */
+  background: radial-gradient(rgba(255,255,255,2), rgba(255,255,255,0.65)); /* Standard syntax (must be last) */
+}
+
+.index_channel {
+  background: white; /* For browsers that do not support gradients */
+  background: radial-gradient(rgba(255,255,255,2), rgba(255,255,255,0.65)); /* Standard syntax (must be last) */
+}
+
+.new_channel {
+  background: white; /* For browsers that do not support gradients */
+  background: radial-gradient(rgba(255,255,255,2), rgba(255,255,255,0.65)); /* Standard syntax (must be last) */
+}
+
+.edit_discussion {
+  background: white; /* For browsers that do not support gradients */
+  background: radial-gradient(rgba(255,255,255,2), rgba(255,255,255,0.65)); /* Standard syntax (must be last) */
+}
+
+.index_discussion {
+  background: white; /* For browsers that do not support gradients */
+  background: radial-gradient(rgba(255,255,255,2), rgba(255,255,255,0.65)); /* Standard syntax (must be last) */
+}
+
+.new_discussion {
+  background: white; /* For browsers that do not support gradients */
+  background: radial-gradient(rgba(255,255,255,2), rgba(255,255,255,0.65)); /* Standard syntax (must be last) */
+}
+
+.show_discussion {
+  background: white; /* For browsers that do not support gradients */
+  background: radial-gradient(rgba(255,255,255,2), rgba(255,255,255,0.65)); /* Standard syntax (must be last) */
+}
+
+._reply {
+  background: white; /* For browsers that do not support gradients */
+  background: radial-gradient(rgba(255,255,255,2), rgba(255,255,255,0.65)); /* Standard syntax (must be last) */
+}
+.edit_reply {
+  background: white; /* For browsers that do not support gradients */
+  background: radial-gradient(rgba(255,255,255,2), rgba(255,255,255,0.65)); /* Standard syntax (must be last) */
+}
+
+.edit_registration{
+  background: white; /* For browsers that do not support gradients */
+  background: radial-gradient(rgba(255,255,255,2), rgba(255,255,255,0.65)); /* Standard syntax (must be last) */
+}
+
+.new_registration {
+  background: white; /* For browsers that do not support gradients */
+  background: radial-gradient(rgba(255,255,255,2), rgba(255,255,255,0.65)); /* Standard syntax (must be last) */
+}
+
+.sign_in {
+  background: white; /* For browsers that do not support gradients */
+  background: radial-gradient(rgba(255,255,255,2), rgba(255,255,255,0.65)); /* Standard syntax (must be last) */
 }

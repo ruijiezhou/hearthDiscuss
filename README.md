@@ -1,24 +1,40 @@
-# README
+### Rails Project - Hearthstone Forum (HearthDiscuss)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+__Title__: Rails Decal Final Project: HearthDiscuss
 
-Things you may want to cover:
+__Team Members__: Yunjie Zhang, Ruijie Zhou
 
-* Ruby version
+__Demo Link__: 
 
-* System dependencies
+__Idea__: A hearthstone themed online forum created using rails where users can log in to post and edit discussions in different channels, and post and edit replies to different dicussions.
 
-* Configuration
+__Models and Descriptions__:
 
-* Database creation
+User
 
-* Database initialization
+* has email, username, password, many discussions and replies.
 
-* How to run the test suite
+Channel
 
-* Services (job queues, cache servers, search engines, etc.)
+* has many dicussions and users, has a title
 
-* Deployment instructions
+Discussion
 
-* ...
+* created by a user under a particular channel, has many replies, has a title and content
+
+Reply
+
+* created by a user under a certain discussion, has some content
+
+__Features__:
+
+* Users can create account and log in
+* Users can post discussions and replies
+* Users can edit and delete their own discussions and replies
+* Use rolify and cancancan to encore an admin user role, which has unlimited access to edit and delete every discussion and reply
+* Use redcarpet and coderay to enable markdown syntax and codeblocks in discussion posts and replies
+
+__Division of Labor__:
+
+* Ruijie: Implement discussion and channels
+* Yunjie: Implement user and replies
